@@ -31,10 +31,76 @@ public class VendingMachine{
 		    System.out.println("6- For Audit reports , enter 6 and press Enter");
 		    System.out.println("7- To Exit the menu , enter 7 and press Enter");
 		    Scanner scan = new Scanner(System.in);
-		    option= scan.nextLine();
+}		    option= scan.nextLine();
 		
 		
 	}while(!option.equals("7"));
+	
+  }
+ public class VendingMachine()
+ {	//Member Variables
+  	String type:
+	int machineID;
+	int billContain;
+	Dooble coinContain;
+	//Constructor
+	public VendingMachine()
+	{
+		
+	}
+	//Method to add a Machine
+	public void addMachine()
+	{
+		
+	}
+	//Method to refill a Machine
+	public void refillMachine()
+	{
+	
+	}
+        //Method to remove a Machine
+	public void deleteMachine()
+	{
+	
+	}
+	//Method that shows the inventory of a Machine
+	public void inventory()
+	{
+	
+	}
+	//Method that simulate the use of a machine
+	public void simulation()
+	{
+	
+	}
+	//Method that shows the inventory of a Machine
+	public void audit()
+	{
+	
+	}
+	
+}
+public class sodaMachine extends VendingMachine
+{	
+	int[] slot=new int[8];
+	dooble[] cost=new int[8];
+}
+public class snackMachine extends VendingMachine
+{	
+	int[] slot=new int[40];
+	dooble[] cost=new int[8];
+}
+public class comboMachine extends VendingMachine
+{	
+	int[] SodaSlot=new int[8];
+	int[] snackSlot=new int[20];
+	dooble[] sodaCost=new int[8];
+	dooble[] sodaCost=new int[20];
+}
+	
+	
+
+	
 	
   }
 	
